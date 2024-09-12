@@ -11,6 +11,9 @@ package edu.cmu.cs.cs214.rec04;
 
 public class InheritanceSortedIntList extends SortedIntList {
 
+    /**
+     * totalAdded -- the total number of elements added to the list
+     */
     private int totalAdded;
 
     public InheritanceSortedIntList() {
