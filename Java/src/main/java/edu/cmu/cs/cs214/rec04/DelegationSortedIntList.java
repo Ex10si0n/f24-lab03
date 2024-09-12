@@ -11,8 +11,14 @@ package edu.cmu.cs.cs214.rec04;
 
 public class DelegationSortedIntList implements IntegerList {
 
+    /**
+     * sortedIntList -- a SortedIntList object to delegate to
+     */
     private final SortedIntList sortedIntList;
 
+    /**
+     * totalAdded -- the total number of elements added to the list
+     */
     private int totalAdded;
 
     /**
